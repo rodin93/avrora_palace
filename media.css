@@ -1,0 +1,233 @@
+@media screen and (max-width: 1280px) {
+
+/* HEADER */
+
+	header {
+		width: 1280px;
+		height: 102px;
+	}
+
+	.logo {
+		margin-left: 125px;
+	}
+
+	.nav {
+		margin-left: 130px;
+	}
+
+	.nav li {
+		margin-right: 40px;
+	}
+
+	.search {
+		margin-left: 80px;
+	}
+
+	.search li {
+		margin-right: 50px;
+	}
+
+/* MAIN */
+
+	.main {
+		width: 1280px;
+		height: 978px;
+	}
+
+	hr {
+		margin-left: 480px;
+		margin-top: -55px;
+	}
+
+	.btn {
+		margin-left: 545px;
+	}
+
+	.dots {
+		margin-top: 168px;
+		margin-right: 130px;
+	}
+
+/* ABOUT */
+
+	.about {
+		width: 1280px;
+		height: 1080px;
+		position: relative;
+	}
+	
+	.info {
+		width: 640px;
+		height: 931px;
+		position: absolute;
+		left: 77px;
+	}
+	
+	.info hr {
+		width: 550px;
+	}
+
+	.info h1 {
+		font-size: 55px;
+	}
+
+	.photo img {
+		width: 600px;
+		height: 1080px;
+		margin-left: 355px;
+	}
+
+/* OFFERS */
+
+	.offers {
+		width: 1280px;
+		height: 1200px;
+		position: relative;
+	}
+
+	.of_h {
+		width: 509px;
+		height: 301px;
+		margin-left: 77px;
+	}
+
+	.offers h1 {
+		font-size: 55px;
+	}
+
+	.offers hr {
+		width: 500px;
+	}
+
+	.offers p {
+		font-size: 25px;
+	}
+
+	.pic_flex {
+		width: 606px;
+		height: 1370px;
+		margin-left: 606px;
+	}
+
+	.pic_flex img {
+		width: 600px;
+		margin-bottom: -35px;
+	}
+
+	.txt {
+		width: 423px;
+		height: 155px;
+		background: #fff;
+		position: relative;
+		right: 300px;
+		bottom: 205px;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
+	}
+
+	.txt h1 {
+		font-size: 33px;
+		text-align: left;
+		margin-left: 65px;
+		margin-bottom: 15px;
+		padding-top: 25px;
+	}
+
+	.txt p {
+		font-size: 17px;
+		text-align: left;
+		margin-left: 65px;
+		margin-right: 100px;
+	}
+
+	.txt img {
+		width: 40px;
+		height: 28px;
+		position: absolute;
+		top: 60px;
+		left: 320px;
+	}
+
+/* Luxury Rooms */
+
+	.rooms {
+		width: 1280px;
+		height: 875px;
+	}
+
+	.l_block {
+		width: 540px;
+		height: 875px;
+	}
+
+	.head {
+		width: 509px;
+		height: 301px;
+		position: relative;
+		top: 50px;
+		left: 73px;
+	}
+
+	.head h1 {
+		font-size: 55px;
+	}
+
+	.head hr{
+		width: 500px;
+	}
+
+	.head p {
+		font-size: 25px;
+	}
+
+	.scroll {
+		width: 570px;
+		position: relative;
+		top: 100px;
+		left: 70px;
+	}
+
+	.room {
+		width: 570px;
+	}
+
+	.room h1 {
+		font-size: 30px;
+		margin-right: 14px;
+	}
+
+	.room p {
+		font-size: 17px;
+	}
+
+	.r_block {
+		width: 558px;
+		height: 875px;
+	}
+
+	.r_block img {
+		width: 558px;
+		margin-top: 75px;
+	}
+
+/* Evening Events */
+	
+	.events {
+		width: 1280px;
+		height: auto;
+	}
+
+	.n_c {
+		margin-top: 150px;
+	}
+
+	.n_c img {
+		width: 612px;
+	}
+
+	.services {
+		margin-left: 165px;
+	}
+
+	.one img {
+		width: 350px;
+	}

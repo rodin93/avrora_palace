@@ -1,0 +1,875 @@
+@import url(fonts/SEGOEUI.ttf);
+@import url(fonts/SEGOEUIB.ttf);
+@import url(fonts/SEGOEUII.ttf);
+@import url(fonts/SEGOEUIL.ttf);
+@import url(fonts/SEGOEUISL.ttf);
+@import url(fonts/SEGOEUIZ.ttf);
+@import url(fonts/SEGUIBL.ttf);
+@import url(fonts/SEGUIBLI.ttf);
+@import url(fonts/SEGUILI.ttf);
+@import url(fonts/SEGUISB.ttf);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.dws-progress-bar {
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	z-index: 100;    
+}   
+
+.progress-percentage {
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	font-size: 30px;
+ 	font-family: "SEGOEUISL", sans-serif;
+ 	font-weight: 400;
+ 	color: #fff;
+ } 
+
+ #preloader {
+ 	position: fixed;
+ 	left: 0;
+ 	top: 0;
+ 	right: 0;
+ 	bottom: 0;
+ 	background: #000;
+ 	z-index: 100;
+}       
+
+/* HEADER */
+
+header {
+	width: 1920px;
+	height: 102px;
+}
+
+.logo {
+	margin-left: 175px;
+	margin-top: 15px;
+	float: left;
+}
+
+.nav {
+	float: left;
+	margin-left: 186px;
+	list-style: none;
+}
+
+.nav li {
+	float: left;
+	margin-right: 60px;
+	margin-top: 40px;
+}
+
+.nav li:last-child {
+	margin-right: 0;
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #707070;
+	font-family: SEGOE UI, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.nav li a:hover {
+	color: #000;
+	transition: 0.4s ease;
+	border-bottom: 2px solid #000;
+}
+
+.search {
+	float: left;
+	list-style: none;
+	margin-left: 390px;
+}
+
+.search li {
+	float: left;
+	margin-right: 70px;
+	margin-top: 40px;
+}
+
+.search li a {
+	text-decoration: none;
+	color: #707070;
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.search li a:hover {
+	color: #000;
+	transition: 0.4s ease;
+	border-bottom: 2px solid #000;
+}
+
+/* MAIN */
+
+.main {
+	display: block;
+	width: 1920px;
+	height: 978px;
+	/*background: url(img/main_bg_1.png) no-repeat;*/
+}
+
+.content {
+	display: block;
+}
+
+.ms1 {
+	color: #fff;
+	text-align: center;
+	padding-top: 205px;
+	padding-bottom: 10px;
+	font-family: 'SEGOEUIL', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+hr {
+	width: 328px;
+	height: 2px;
+	background: #CA9C80;
+	border: none;
+	margin-left: 800px;
+	margin-bottom: 95px;
+}
+
+.main h1 {
+	text-align: center;
+	color: #fff;
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 82px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.main p {
+	text-align: center;
+	font-family: 'SEGOEUIL', sans-serif;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 55px;
+	text-transform: uppercase;
+}
+
+.btn {
+	width: 190px;
+	height: 50px;
+	margin-left: 870px;
+	background: #CA9C80;
+	line-height: 53px;
+	text-align: center;
+	font-family: 'SEGUISB', sans-serif;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+.btn a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 35px;
+}
+
+.btn:hover, .btn a:hover {
+	background: #fff;
+	color: #000;
+	transition: 0.4s ease;
+}
+
+.ms2 {
+	margin-top: 160px;
+	margin-right: 150px;
+	float: right;
+}
+
+.ms2 a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: none;
+}
+
+.ms2 a:hover {
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	transition: 0.4s ease;
+}
+
+/* ABOUT */
+
+.about {
+	width: 1920px;
+	height: 1080px;
+}
+
+.info {
+	float: left;
+	width: 718px;
+	height: 931px;
+	position: relative;
+	left: 140px;
+	top: 95px;
+}
+
+.info h1 {
+	text-align: left;
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 82px;
+}
+
+.info h1 span {
+	color: #CA9C80;
+}
+
+.info hr {
+	width: 709px;
+	position: relative;
+	top: 65px;
+	right: 480px;
+}
+
+.info h2 {
+	margin-top: 110px;
+	margin-bottom: 80px;
+	font-family: 'SEGOEUIB', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	letter-spacing: 1px;
+}
+
+.info p {
+	width: 398px;
+	height: 568px;
+	font-family: 'SEGOEUIL', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 29px;
+	color: #707070;
+}
+
+.photo {
+	float: right;
+	width: 955px;
+	height: 1080px;
+}
+
+/* OFFERS */
+
+.offers {
+	width: 1920px;
+	height: 2162px;
+}
+
+.of_h {
+	width: 709px;
+	height: 301px;
+	margin-top: 90px;
+	margin-left: 140px;
+}
+
+.offers h1 {
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 82px;
+}
+
+.offers h1 span {
+	color: #CA9C80;
+}
+
+.offers hr {
+	width: 709px;
+	position: relative;
+	top: 65px;
+	right: 480px;
+}
+
+.offers p {
+	font-family: 'SEGOEUISL', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	color: #707070;
+}
+
+.pic_flex {
+	width: 1213px;
+	height: 1435px;
+	margin-left: 810px;
+}
+
+.pic_flex img {
+	margin-bottom: -150px;
+}
+
+.txt {
+	width: 603px;
+	height: 255px;
+	background: #fff;
+	position: relative;
+	right: 380px;
+	bottom: 195px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
+}
+
+.txt h1 {
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 37px;
+	text-align: center;
+	margin-right: 100px;
+	margin-bottom: 15px;
+	padding-top: 60px;
+}
+
+.txt p {
+	font-family: 'SEGOEUIL', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 100px;
+}
+
+.txt img {
+	position: absolute;
+	left: 435px;
+	bottom: 270px;
+}
+
+/* LUXURY ROOMS */
+
+.rooms {
+	width: 1920px;
+	height: 1080px;
+	margin-top: 530px;
+}
+
+.l_block {
+	width: 960px;
+	height: 1080px;
+	float: left;
+}
+
+.head {
+	width: 714px;
+	height: 292px;
+	position: relative;
+	top: 100px;
+	left: 140px;
+}
+
+.head h1 {
+	font-family: 'SEGOEUI', sans-serif;
+	font-size: 82px;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+.head h1 span {
+	color: #CA9C80;
+}
+
+.head hr {
+	width: 709px;
+	position: relative;
+	top: 70px;
+	right: 480px;
+}
+
+.head p {
+	font-family: 'SEGOEUISL', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	color: #707070;
+}
+
+.scroll {
+	width: 684px;
+	height: 435px;
+	position: relative;
+	top: 270px;
+	left: 140px;
+	overflow: scroll;
+}
+
+.room {
+	width: 684px;
+	height: 145px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	border-left: 2px solid #707070;
+}
+
+.room:hover {
+	background: #EEECEE;
+	transition: all 0.4s ease;
+}
+
+.room img {
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.room h1 {
+	float: left;
+	margin-top: 35px;
+	margin-bottom: 40px;
+	margin-left: 70px;
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+}
+
+.room p {
+	float: left;
+	margin-top: 85px;
+	margin-left: -183px;
+	font-family: 'SEGOEUI', sans-serif;
+	font-size: 20px;
+}
+
+.room p span {
+	color: #CA9C80;
+}
+
+.room:nth-child(2) p {
+	margin-left: -280px;
+}
+
+.room:nth-child(3) p {
+	margin-left: -286px;
+}
+
+.room:nth-child(5) p {
+	margin-left: -280px;
+}
+
+.r_block {
+	width: 958px;
+	height: 1080px;
+	float: right;
+}
+
+/* EVENING EVENTS */
+
+.events {
+	width: 1920px;
+	height: auto;
+	background: url(img/bg_lst.png) no-repeat center top;
+	margin-top: 37px;
+}
+
+/* к заголовку используется селектор класса .head */
+
+.hdw {
+	color: #fff;
+}	
+
+.n_c {
+	margin-top: 210px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.n_c img {
+	width: 811px;
+	height: 492px;
+}
+
+
+.txt1 h1 {
+	font-family: 'SEGOEUIB', sans-serif;
+	font-size: 37px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.txt1 span {
+	color: #CA9C80;
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.txt1 p {
+	margin-top: 50px;
+	color: #fff;
+	font-family: 'SEGOEUIL', sans-serif;
+	font-size: 20px;
+}
+
+.txt1 button {
+	margin-top: 85px;
+	width: 192px;
+	height: 55px;
+	background: #CA9C80;
+	color: #fff;
+	font-family: 'SEGOEUIB', sans-serif;
+	font-size: 20px;
+	border: none;
+	padding-left: 10px;
+}
+
+.txt1 button:hover {
+	background-color: #fff;
+	color: #000;
+	-webkit-transition: 0.4s ease;
+	-o-transition: 0.4s ease;
+	-moz-transition: 0.4s ease;
+	transition: 0.4s ease;
+}
+
+.services {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 140px;
+	margin-left: 200px;
+	position: relative;
+	right: 100px;
+}
+
+.one img {
+	width: 536px;
+	height: 662px;
+}
+
+.one span {
+	font-family: 'SEGOEUIB', sans-serif;
+	font-size: 32px;
+	display: block;
+	margin-top: -60px;
+	margin-left: 30px;
+	color: #fff;
+}
+
+/* CONTACT US */
+
+.contact {
+	width: 1920px;
+	height: 1080px;
+	margin-top: 160px;
+}
+
+.map {
+	display: block;
+	float: left;
+	width: 952px;
+	height: 1080px;
+}
+
+.cont {
+	position: relative;
+	left: 100px;
+}
+
+.cont h1 {
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 82px;
+}
+
+.cont h1 span {
+	color: #CA9C80;
+}
+
+.cont hr {
+	width: 709px;
+	position: relative;
+	top: 100px;
+	left: 10px;
+}
+
+.cont p {
+	font-family: 'SEGOEUISL', sans-serif;
+	font-size: 32px;
+	color: #000;
+	position: relative;
+	left: 10px;
+	top: 50px;
+	margin-bottom: 130px;
+}
+
+.ad1 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 714px;
+	height: 145px;
+	position: relative;
+	left: 105px;
+}
+
+.ad1:hover, .ad1 h2:hover, .ad1 p:hover {
+	background-color: #EEECEE;
+	cursor: pointer;
+	transition: all 1s ease;
+}
+
+.ad1 img {
+	width: 48px;
+	height: 72px;
+	margin-left: 50px;
+	margin-right: 106px;
+	margin-top: 35px;
+}
+
+.ad1 h2 {
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	margin-top: 30px;
+	color: #707070;
+}
+
+.ad1 p {
+	margin-left: 205px;
+	margin-top: -50px;
+	font-family: 'SEGOEUIL', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #707070;
+}
+
+.ad2 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 714px;
+	height: 145px;
+	position: relative;
+	top: 20px;
+	left: 105px;
+}
+
+.ad2:hover, .ad2 h2:hover, .ad2 p:hover {
+	background-color: #EEECEE;
+	transition: all 1s ease;
+	cursor: pointer;
+}
+
+.ad2 p a:hover {
+	color: #000;
+	transition: all 1s ease;
+}
+
+.ad2 img {
+	width: 48px;
+	height: 72px;
+	margin-left: 50px;
+	margin-right: 106px;
+	margin-top: 35px;
+}
+
+.ad2 h2 {
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	margin-top: 30px;
+	color: #707070;
+}
+
+.ad2 p {
+	font-family: 'SEGOEUIL', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #707070;
+	margin-top: 85px;
+	margin-left: -90px;
+}
+
+.ad2 p a {
+	text-decoration: none;
+	color: #707070;
+}
+
+.ad3 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 714px;
+	height: 145px;
+	position: relative;
+	top: 40px;
+	left: 105px;
+}
+
+.ad3:hover, .ad3 h2:hover, .ad3 p:hover {
+	background-color: #EEECEE;
+	transition: all 1s ease;
+	cursor: pointer;
+}
+
+.ad3 p a:hover {
+	color: #000;
+	transition: all 1s ease;
+}
+
+.ad3 img {
+	width: 48px;
+	height: 72px;
+	margin-left: 50px;
+	margin-right: 106px;
+	margin-top: 35px;
+}
+
+.ad3 h2 {
+	font-family: 'SEGOEUI', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	margin-top: 30px;
+	color: #707070;
+}
+
+.ad3 p {
+	font-family: 'SEGOEUIL', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #707070;
+	margin-top: 85px;
+	margin-left: -100px;
+}
+
+.ad3 p a {
+	text-decoration: none;
+	color: #707070;
+} 
+
+/* Footer */
+
+footer {
+	width: 1920px;
+	height: 260px;
+	background-color: #000;
+}
+
+footer img {
+	position: relative;
+	top: 60px;
+	cursor: pointer;
+}
+
+.nav1 {
+	float: left;
+	margin-left: 186px;
+	list-style: none;
+	margin-top: 95px;
+}
+
+.nav1 li {
+	float: left;
+	margin-right: 60px;
+	margin-top: 40px;
+}
+
+.nav1 li:last-child {
+	margin-right: 0;
+}
+
+.nav1 li a {
+	text-decoration: none;
+	color: #707070;
+	font-family: 'SEGOEUIB', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.nav1 li a:hover {
+	color: #fff;
+	transition: 0.4s ease;
+	border-bottom: 2px solid #fff;
+}
+
+footer p {
+	color: #707070;
+	top: 100px;
+	position: relative;
+	left: 138px;
+	font-family: 'SEGOEUISL', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+form {
+	position: relative;
+	top: 120px;
+	left: 138px;
+}
+
+form input[type=mail] {
+	width: 260px;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #fff;
+	color: #fff;
+}
+
+form input[placeholder="Your E-Mail"] {
+	font-family: 'SEGOEUIL', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	padding-bottom: 5px;
+}
+
+form input[type=submit] {
+	width: 30px;
+	height: 30px;
+	background: url(img/samik.png) no-repeat;
+	border: none;
+	overflow: hidden;
+	text-indent: 100%;
+	cursor: pointer;
+	position: relative;
+	right: 25px;
+}
+
+form input[type=submit]:hover {
+	opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
